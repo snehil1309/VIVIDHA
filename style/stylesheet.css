@@ -862,6 +862,10 @@ p {
     text-align: center;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-card:hover {
